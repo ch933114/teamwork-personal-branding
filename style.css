@@ -62,7 +62,50 @@ img {
 /* 最新文章 CSS */
 
 /* 文章列表 CSS */
-
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+.card{
+    width: 416px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.content img{
+    margin-bottom: 16px;
+}
+.card h3{
+	font-size: 24px;
+	color: #0027D5;
+	line-height: 150%;
+}
+.card h2{
+	font-size: 28px;
+	line-height: 150%;
+	font-weight: bold;
+}
+.card p{
+	font-size: 16px;
+	color: #4B4B4B;
+	line-height: 150%;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	overflow: hidden;
+	margin-bottom: 16px;
+}
+.card button{
+	border-radius: 40px;
+	border: 1px solid black;
+	padding: 8px 16px;
+	background-color: #FFFFFF;
+}
+.card button:hover{
+	background-color: black;
+	color: #FFFFFF;  
+}
 /* 聯絡資訊 CSS */
 
 /* 表尾 CSS */
